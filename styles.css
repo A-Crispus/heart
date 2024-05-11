@@ -36,3 +36,16 @@ body {
     transform-origin: 100% 100%;
   }
   
+  .heartbeat {
+    animation: pulse 1s infinite alternate;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
